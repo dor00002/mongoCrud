@@ -3,10 +3,10 @@ const mongoose = require("mongoose");
 //const Class = require("./Class");
 
 const schema = new mongoose.Schema({
-  firstName: {Type:String, Required: true, maxlength: 64},
-  lastName: {Type: String, Required: true, maxlength: 64},
-  NickName: {Type: String, Required: false, maxlength: 64},
-  email: {Type: String, Required: true, maxlength: 512}
+  firstName: {type: String, required: true, maxlength: 64},
+  lastName: {type: String, required: true, maxlength: 64},
+  NickName: {type: String, required: false, maxlength: 64},
+  email: {type: String, required: true, maxlength: 512}
 });
 
 const Model = mongoose.model("Student", schema);

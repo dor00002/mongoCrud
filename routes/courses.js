@@ -1,4 +1,4 @@
-const Course = require("../models/Course");
+const Course = require("../models/Class");
 const express = require("express");
 const router = express.Router();
 const sanitizeBody = require("../middleware/sanitizeBody")
