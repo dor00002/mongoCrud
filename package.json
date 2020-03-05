@@ -1,0 +1,25 @@
+{
+  "name": "assignment2",
+  "version": "1.0.0",
+  "description": "To build an enhance backend web service with MongoDB to support a simple class list application and added measures to sanitize incoming data.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dor00002/mongoCrud.git"
+  },
+  "keywords": [],
+  "author": "Kendy dor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dor00002/mongoCrud/issues"
+  },
+  "homepage": "https://github.com/dor00002/mongoCrud#readme",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "mongoose": "^5.9.3",
+    "xss": "^1.0.6"
+  }
+}
