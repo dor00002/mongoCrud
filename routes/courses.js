@@ -5,8 +5,8 @@ const sanitizeBody = require("../middleware/sanitizeBody")
 
 router.use(sanitizeBody);
 router.get("/", async (req, res) => {
-    const course = await Course.find();
-    res.send({ data: course });
+    const courses = await Course.find();
+    res.send({ data: courses });
   });
 
   router.post("/", async (req, res) => {

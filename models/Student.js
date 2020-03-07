@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const schema = new mongoose.Schema({
   firstName: {type: String, required: true, maxlength: 64},
   lastName: {type: String, required: true, maxlength: 64},
-  NickName: {type: String, required: false, maxlength: 64},
+  nickName: {type: String, required: false, maxlength: 64},
   email: {type: String, required: true, maxlength: 512}
 });
 

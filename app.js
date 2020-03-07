@@ -3,7 +3,7 @@
 const debug = require("debug")("assignment2:db");
 const express = require("express");
 
-//require("./startup/database")(); // IIFE
+require("./startup/database")(); // IIFE
 
 const mongoose = require("mongoose");
 mongoose
