@@ -19,7 +19,7 @@
   "homepage": "https://github.com/dor00002/mongoCrud#readme",
   "dependencies": {
     "debug": "^4.1.1",
-    "mongoose": "^5.9.3",
+    "mongoose": "^5.13.15",
     "xss": "^1.0.6"
   }
 }
